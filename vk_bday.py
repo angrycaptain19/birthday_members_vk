@@ -169,7 +169,6 @@ def save_post_id(post_id):
     with open('/home/host1336571/parser-yo.ga/htdocs/www/yoga/bot/bday_vk/last_post_id.json', 'w') as f:
     #with open('last_post_id.json', 'w') as f:
         json.dump(post_id, f, indent=2)
-        pass
 
 
 del_last_post()
